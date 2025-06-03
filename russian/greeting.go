@@ -1,4 +1,4 @@
-package greeting
+package russian
 
 import (
 	"bufio"
@@ -7,11 +7,11 @@ import (
 )
 
 func Hello() {
-	fmt.Println("Hello from module!")
+	fmt.Println("Передаю привет прямиком из модуля!")
 }
 
 func GreetByName(name string) {
-	fmt.Printf("Hello, %s", name)
+	fmt.Printf("Привет, %s", name)
 }
 
 func AskNameAndGreet() {
@@ -22,5 +22,5 @@ func AskNameAndGreet() {
 }
 
 func IntroduceMe(name string) {
-	fmt.Printf("Ladies and gentlemens, this is my best friend %s!", name)
+	fmt.Printf("Леди и джентельмены, это мой лучший друг %s!", name)
 }
