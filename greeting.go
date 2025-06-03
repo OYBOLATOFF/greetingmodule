@@ -20,3 +20,7 @@ func AskNameAndGreet() {
 	name, _ := reader.ReadString('\n')
 	GreetByName(name)
 }
+
+func IntroduceMe(name string) {
+	fmt.Printf("Ladies and gentlemens, this is my best friend %s!", name)
+}
